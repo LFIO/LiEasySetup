@@ -5,7 +5,7 @@ You can decide which software you wanted to install,
 
 for example,you can install QQ,Discord and WeChat.
 
-They are 100% No ads when you downloading.
+There are 100% No ads when you downloading.
 
 (Tips:Download is based on Your browser)
 
