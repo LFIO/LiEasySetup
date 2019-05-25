@@ -1,19 +1,17 @@
 # LiEasySetup
-Use this to easily setup your computer.
+Use this to setup your computer easeily.
 
 You can decide which software you wanted to install,
 
-for example,you can install QQ,Discord and WeChat.
+There are No ads when you downloading.
 
-There are 100% No ads when you downloading.
-
-(Tips:Download is based on Your browser)
+(NOTICE:Download is based on Your browser)
 
 System supported: Windows 7/8/10 32 or 64bits
 
 Require:
 
-2GB RAM at least
+A great web broswer
 
 Internet Connection
 
