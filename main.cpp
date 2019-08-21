@@ -1,3 +1,4 @@
+    
 #include <iostream>
 #include <windows.h>
 using namespace std;
@@ -129,6 +130,47 @@ int main()
 		system("start https://get.js.org/iTunes");
 	}
 	system("pause");
+	cout<<"Do you want clean your browser window?"<<endl<<"Y=Yes N=No"<<endl;
+	char cleanq;
+	clean:
+	cleanq=0;
+	cin<<cleanq;
+	if(cleanq=='Y' || cleanq='y')
+	{
+		cout<<"Which Browser are you using?"<<endl;
+		cout<<"Chrome:0 Brave:1 Other: 3"<<endl;
+		int bc;
+		cin>>bc;
+		if(bc==0)
+		{
+			cout<<"WARNING: THIS WILL CLEAN ALL THE WEBPAGE YOU HAVE OPENED! PLEASE SAVE IT NOW!"<<endl;
+			system("pause");
+			cout<<"CLEANNING. . ."<<endl;
+			system("taskkill /IM chrome.exe");
+			system("taskkill /IM Chrome.exe");
+		}
+		else if (bc==1)
+		{
+			cout<<"WARNING: THIS WILL CLEAN ALL THE WEBPAGE YOU HAVE OPENED! PLEASE SAVE IT NOW!"<<endl;
+			system("pause");
+			cout<<"CLEANNING. . ."<<endl;
+			system("taskkill /IM brave.exe");
+			system("taskkill /IM Brave.exe");
+		}
+		else
+		{
+			cout<<"Ok!"<<endl;
+		}
+	}
+	else if(cleanq=='N' || cleanq='n')
+	{
+		cout<<"Ok!"<<endl;
+	}
+	else
+	{
+		cout<<"Nope,You entered a wrong symbol!"<<endl;
+		goto clean;
+	}
 	cout<<"Sorry,The automatic install feature is not open yet."<<endl;
 	cout<<"Thanks for using LES!"<<endl;
 	if(n==4174977269)
